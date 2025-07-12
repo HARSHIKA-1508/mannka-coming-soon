@@ -1,12 +1,10 @@
 import React from 'react'
-
+import './home.css'
+import Contact from '../components/Contact'
 const Home = () => {
   return (
    <>
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mannka</title>
-  <link rel="stylesheet" href="style.css" />
+ 
   <section className="coming-soon">
     <div className="hero-content">
       <h1 className="hero-title">Coming Soon</h1>
@@ -32,62 +30,7 @@ const Home = () => {
         Want to be the first to know when we launch? Drop us a message and we'll
         keep you in the loop.
       </p>
-      <form className="contact-form" id="contactForm">
-        <div className="form-group">
-          <label className="form-label" htmlFor="name">
-            Full Name
-          </label>
-          <input
-            type="text"
-            className="form-input"
-            id="name"
-            name="name"
-            placeholder="Enter your full name"
-            required=""
-          />
-        </div>
-        <div className="form-group">
-          <label className="form-label" htmlFor="email">
-            Email Address
-          </label>
-          <input
-            type="email"
-            className="form-input"
-            id="email"
-            name="email"
-            placeholder="Enter your email address"
-            required=""
-          />
-        </div>
-        <div className="form-group">
-          <label className="form-label" htmlFor="mobile-number">
-            Mobile Number
-          </label>
-          <input
-            type="number"
-            className="form-input"
-            id="mobile-number"
-            name="mobile-number"
-            placeholder="Your Contact Number"
-          />
-        </div>
-        <div className="form-group">
-          <label className="form-label" htmlFor="message">
-            Message
-          </label>
-          <textarea
-            className="form-textarea"
-            id="message"
-            name="message"
-            placeholder="Tell us what you're excited about or any questions you have..."
-            required=""
-            defaultValue={""}
-          />
-        </div>
-        <button type="submit" className="submit-btn">
-          Send Message
-        </button>
-      </form>
+     <Contact/>
     </div>
   </section>
 </>
