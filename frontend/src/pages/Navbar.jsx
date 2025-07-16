@@ -4,18 +4,24 @@ import logo from '../assets/Temple logo.svg';
 
 const Navbar = () => {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-    script.async = true;
-    document.body.appendChild(script);
+    // Prevent re-adding script if already present
+    if (!document.getElementById('google-translate-script')) {
+      const script = document.createElement("script");
+      script.id = 'google-translate-script';
+      script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      script.async = true;
+      document.body.appendChild(script);
 
-    window.googleTranslateElementInit = () => {
-      new window.google.translate.TranslateElement({
-        pageLanguage: 'en',
-        includedLanguages: 'en,hi,gu,ta,te,bn,mr,pa',
-        layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    };
+      window.googleTranslateElementInit = () => {
+        if (!document.querySelector('#google_translate_element select')) {
+          new window.google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,hi,gu,ta,te,bn,mr,pa',
+            layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+        }
+      };
+    }
   }, []);
 
   return (
