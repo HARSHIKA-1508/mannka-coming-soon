@@ -41,9 +41,16 @@
   gap: 15px;
 }
 
-.language-select {
-  padding: 5px;
+#google_translate_element {
+  margin-right: 10px;
 }
+
+.goog-te-combo {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
 
 .call-icon {
   font-size: 20px;
