@@ -1,4 +1,4 @@
-import React from 'react';
+
 import React, { useEffect } from 'react';
 import './Navbar.css';
 import logo from '../assets/Temple logo.svg';
