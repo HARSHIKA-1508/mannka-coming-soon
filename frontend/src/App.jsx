@@ -19,19 +19,19 @@ function App() {
           title="Kashi Vishwanath"
           imgSrc={kashiImg}
           brief="One of the holiest temples dedicated to Lord Shiva in Varanasi."
-          contact="+917905992022"
+          contact="+918858855308"
         />
         <TempleCard
           title="Annapurna Temple"
           imgSrc={annapurnaImg}
           brief="Famous temple of Goddess Annapurna providing divine blessings."
-          contact="+917905992022"
+          contact="+918858855308"
         />
         <TempleCard
           title="Kashi "
           imgSrc={somnathImg}
           brief="First among the twelve Jyotirlinga shrines of Lord Shiva."
-          contact="+917905992022"
+          contact="+918858855308"
         />
       </div>
   <Home/>
