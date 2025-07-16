@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../assets/logo.png';
+import logo from '../assets/Temple logo.svg';
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
           <option>EN</option>
           <option>HI</option>
         </select>
-        <a href="tel:+919999999999" className="call-icon" title="Call Us">📞</a>
+        <a href="tel:+918858855308" className="call-icon" title="Call Us">📞</a>
       </div>
     </nav>
   );
