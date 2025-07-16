@@ -31,7 +31,7 @@
 
 .tagline {
   font-size: 0.9rem;
-  color: teal;
+  color: ##FFA500;
   margin: 0;
 }
 
@@ -41,14 +41,40 @@
   gap: 15px;
 }
 
-#google_translate_element {
-  margin-right: 10px;
+/* Hide the weird Google branding text */
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
 }
 
-.goog-te-combo {
-  padding: 5px;
-  border-radius: 4px;
+#google_translate_element {
+  margin: 0;
+  padding: 0;
+}
+.goog-te-gadget {
   font-size: 14px;
+  color: #333;
+  font-family: inherit;
+}
+
+/* Make the dropdown blend into navbar */
+.goog-te-combo {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Optional: adjust spacing between dropdown and phone icon */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 
