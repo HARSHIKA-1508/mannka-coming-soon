@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import './Navbar.css';
 import logo from '../assets/Temple logo.svg';
@@ -19,8 +18,6 @@ const Navbar = () => {
     };
   }, []);
 
-
-const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -32,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-          <div id="google_translate_element"></div>
+        <div id="google_translate_element"></div>
         <a href="tel:+918858855308" className="call-icon" title="Call Us">📞</a>
       </div>
     </nav>
