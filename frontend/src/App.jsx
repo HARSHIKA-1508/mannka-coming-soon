@@ -6,7 +6,7 @@ import "./App.css";
 
 import kashiImg from './assets/Kashi Vishwanath.jpg';
 import annapurnaImg from './assets/annapurna.jpg';
-import somnathImg from './assets/somnath.jpg';
+import kaalBhairavImg from './assets/KaalBhairav.jpg';
 
 function App() {
 
@@ -28,9 +28,9 @@ function App() {
           contact="+918858855308"
         />
         <TempleCard
-          title="Kashi "
-          imgSrc={somnathImg}
-          brief="First among the twelve Jyotirlinga shrines of Lord Shiva."
+          title="Kaal Bhairav Temple "
+          imgSrc={kaalBhairavImg}
+          brief="Kaal Bhairav Mandir is one of the oldest Shiva temples in Varanasi, India."
           contact="+918858855308"
         />
       </div>
