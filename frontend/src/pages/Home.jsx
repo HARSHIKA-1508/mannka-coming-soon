@@ -7,7 +7,7 @@ const Home = () => {
  
   <section className="coming-soon">
     <div className="hero-content">
-      <h1 className="hero-title">Coming Soon</h1>
+      <h1 className="hero-title">Coming Soon In Your City</h1>
       <p className="hero-subtitle">Jaldi hi aap ki Sewa karne ke liye</p>
     </div>
     <div className="scroll-indicator">
