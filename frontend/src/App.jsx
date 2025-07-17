@@ -4,7 +4,7 @@ import Hero from "./pages/Hero";
 import TempleCard from "./pages/TempleCard";
 import "./App.css";
 
-import kashiImg from './assets/Kashi Vishwanath.jpg';
+import kashiImg from './assets/KashiVishanath.jpg';
 import annapurnaImg from './assets/annapurna.jpg';
 import kaalBhairavImg from './assets/KaalBhairav.jpg';
 
