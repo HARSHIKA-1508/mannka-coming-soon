@@ -15,7 +15,7 @@ const TempleCard = ({ title, imgSrc, brief, contact ,buttonLabel }) => {
           </div>
         ) : (
         <p>{brief}</p>)}
-        <a href={`tel:${contact}`} className="book-btn">{props.buttonLabel || "Book Darshan"}: {contact}</a>
+        <a href={`tel:${contact}`} className="book-btn">{buttonLabel || "Book Darshan"}: {contact}</a>
       </div>
     </div>
   );
