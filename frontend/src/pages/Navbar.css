@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: 1px solid #ef4810;
+  border-bottom: 1px solid #000;
 }
 
 .navbar-left {
@@ -32,7 +32,7 @@
 
 .tagline {
   font-size: 0.9rem;
-  color: #f0620a;
+  color: #FFA500;
   margin: 0;
 }
 
@@ -46,21 +46,13 @@
 .translate-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 5px;
-  cursor: pointer;
+  gap: 6px;
 }
 
 .translate-icon {
-  font-size: 22px;
-  color: #333; 
-  transition: color 0.3s ease;
+  font-size: 18px;
+  color: black;
 }
-
-.translate-icon:hover {
-  color: #800000;
-}
-
 
 
 .goog-logo-link,
@@ -80,6 +72,7 @@
   font-family: inherit;
 }
 
+
 .goog-te-combo {
   padding: 4px 8px;
   border-radius: 6px;
@@ -91,6 +84,8 @@
   font-family: inherit;
   cursor: pointer;
 }
+
+
 
 .call-icon {
   padding-bottom:10px;
