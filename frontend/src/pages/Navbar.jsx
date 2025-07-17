@@ -37,10 +37,9 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-         <div className="translate-container">
-          <FontAwesomeIcon icon={faLanguage} className="translate-icon" />
-          <div id="google_translate_element"></div>
-        </div>
+        <div className="translate-container" title="Translate" onClick={handleTranslateClick}>
+  <FontAwesomeIcon icon={faLanguage} className="translate-icon" />
+</div>
 
         <a href="tel:+918858855308" className="call-icon" title="Call Us">
           <FontAwesomeIcon icon={faPhone} />
