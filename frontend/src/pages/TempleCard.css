@@ -24,6 +24,11 @@
   font-size:20px;
   
 }
+.temple-brief p{
+  margin-bottom: 8px;
+  line-height: 1.5;
+  color: #ecd4d4;
+}
 
 .book-btn {
   display: inline-block;

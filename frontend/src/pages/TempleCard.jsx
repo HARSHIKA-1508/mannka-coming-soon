@@ -7,7 +7,14 @@ const TempleCard = ({ title, imgSrc, brief, contact }) => {
       <img src={imgSrc} alt={title} className="temple-image" />
       <div className="temple-info">
         <h3>{title}</h3>
-        <p>{brief}</p>
+        {Array.isArray(brief) ? (
+          <div className="temple-brief">
+            {brief.map((para, index) => (
+              <p key={index}>{para}</p>
+            ))}
+          </div>
+        ) : (
+        <p>{brief}</p>)}
         <a href={`tel:${contact}`} className="book-btn">Book Darshan: {contact}</a>
       </div>
     </div>
