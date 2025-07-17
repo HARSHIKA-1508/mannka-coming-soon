@@ -8,8 +8,8 @@
 }
 
 .temple-image {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -17,11 +17,11 @@
   flex: 1;
 }
 .temple-info h3{
-  font-size:20px;
-  font-weight:400;
+  font-size:35px;
+  font-weight:600;
 }
 .temple-info p{
-  font-size:15px;
+  font-size:20px;
 }
 
 .book-btn {
@@ -31,7 +31,7 @@
   background-color: red;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 @media (max-width: 768px) {
