@@ -8,7 +8,7 @@ const TempleCard = ({ title, imgSrc, brief, contact }) => {
       <div className="temple-info">
         <h3>{title}</h3>
         <p>{brief}</p>
-        <a href={`tel:${contact}`} className="book-btn">Call to Book: {contact}</a>
+        <a href={`tel:${contact}`} className="book-btn">Book Darshan: {contact}</a>
       </div>
     </div>
   );
