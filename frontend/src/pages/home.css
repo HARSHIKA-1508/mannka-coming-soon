@@ -7,8 +7,8 @@
        body {
            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
            overflow-x: hidden;
-           background: #fff;
-           color: #000;
+           background: #ffd4ac;
+           color: #fff;
        }
   .coming-soon {
             height: 100vh;
@@ -79,7 +79,7 @@
         }
        .contact-section {
            min-height: 100vh;
-           background: linear-gradient(135deg, #9cdfef 0%, #db764e 100%);
+           background: #ffd4ac;
            padding: 80px 20px;
            display: flex;
            align-items: center;
