@@ -43,6 +43,7 @@ function App() {
             "This temple has great historical and cultural importance in Hinduism ,especially amongst the locals. ",
             "At Mannka we believe that connecting with the divine should be serene and enriching experience, free from the usual hustle and crowds.",
             "We will provide the overall process in less than 20 min with Panditji by your side to assist in Puja. "]}
+          buttonLabel="Book Sparsh Darshan"
           contact="+918858855308"
         />
          <TempleCard
@@ -52,6 +53,7 @@ function App() {
             "This temple has great religious importance in Hinduism and is dedicated to Durga.",
             "At Mannka we believe that connecting with the divine should be serene and enriching experience, free from the usual hustle and crowds.",
             "We will provide the overall process in less than 20 min with Panditji by your side to assist in Puja. "]}
+           buttonLabel="Book Sparsh Darshan"
           contact="+918858855308"
         />
       </div>
