@@ -1,7 +1,7 @@
 import React from 'react';
 import './TempleCard.css';
 
-const TempleCard = ({ title, imgSrc, brief, contact }) => {
+const TempleCard = ({ title, imgSrc, brief, contact ,buttonLabel }) => {
   return (
     <div className="temple-card">
       <img src={imgSrc} alt={title} className="temple-image" />
@@ -15,7 +15,7 @@ const TempleCard = ({ title, imgSrc, brief, contact }) => {
           </div>
         ) : (
         <p>{brief}</p>)}
-        <a href={`tel:${contact}`} className="book-btn">Book Darshan: {contact}</a>
+        <a href={`tel:${contact}`} className="book-btn">{props.buttonLabel || "Book Darshan"}: {contact}</a>
       </div>
     </div>
   );
