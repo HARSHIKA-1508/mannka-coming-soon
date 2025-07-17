@@ -46,13 +46,21 @@
 .translate-container {
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .translate-icon {
-  font-size: 18px;
-  color: black;
+  font-size: 22px;
+  color: #333; 
+  transition: color 0.3s ease;
 }
+
+.translate-icon:hover {
+  color: #800000;
+}
+
 
 
 .goog-logo-link,
