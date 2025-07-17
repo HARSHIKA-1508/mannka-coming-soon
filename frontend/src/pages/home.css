@@ -7,7 +7,7 @@
        body {
            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
            overflow-x: hidden;
-           background: #ffd4ac;
+           background: #f4d5b9;
            color: #fff;
        }
   .coming-soon {
@@ -179,7 +179,7 @@
        .submit-btn {
            width: 100%;
            padding: 18px;
-           background: linear-gradient(45deg, #cdbe83, #764ba2);
+           background: linear-gradient(45deg, #cdbe83, #e3ad7d);
            color: #fff;
            border: none;
            border-radius: 10px;

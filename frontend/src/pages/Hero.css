@@ -3,9 +3,15 @@
   margin: 30px 0;
 }
 
-.hero h1, .hero h2 {
+.hero h1{
   font-size: 50px;
   margin: 5px 0;
   font-weight: 600;
+  color: #FF9500;
+}
+.hero h2{
+  font-size: 40px;
+  margin: 5px 0;
+  font-weight: 500;
   color: #FF9500;
 }

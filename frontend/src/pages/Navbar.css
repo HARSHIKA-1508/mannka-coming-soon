@@ -1,9 +1,10 @@
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #ef4810;
 }
 
 .navbar-left {
@@ -31,7 +32,7 @@
 
 .tagline {
   font-size: 0.9rem;
-  color: #FFA500; 
+  color: #f0620a;
   margin: 0;
 }
 
@@ -39,6 +40,18 @@
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+
+.translate-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.translate-icon {
+  font-size: 18px;
+  color: black;
 }
 
 
@@ -51,9 +64,7 @@
 #google_translate_element {
   margin: 0;
   padding: 0;
-  height: auto;
 }
-
 
 .goog-te-gadget {
   font-size: 14px;
@@ -73,9 +84,10 @@
   cursor: pointer;
 }
 
-
 .call-icon {
   padding-bottom:10px;
+   color: black;
   font-size: 20px;
   text-decoration: none;
 }
+

@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import './Navbar.css';
 import logo from '../assets/Temple logo.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLanguage, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   useEffect(() => {
@@ -30,13 +32,19 @@ const Navbar = () => {
         <img src={logo} alt="Company Logo" className="logo" />
         <div className="company-info">
           <h2 className="company-name">Mannka</h2>
-          <p className="tagline">Giving Local Experience</p>
+          <p className="tagline">Providing The Local Experience To Our Atithi</p>
         </div>
       </div>
 
       <div className="navbar-right">
-        <div id="google_translate_element"></div>
-        <a href="tel:+918858855308" className="call-icon" title="Call Us">📞</a>
+         <div className="translate-container">
+          <FontAwesomeIcon icon={faLanguage} className="translate-icon" />
+          <div id="google_translate_element"></div>
+        </div>
+
+        <a href="tel:+918858855308" className="call-icon" title="Call Us">
+          <FontAwesomeIcon icon={faPhone} />
+        </a>
       </div>
     </nav>
   );
