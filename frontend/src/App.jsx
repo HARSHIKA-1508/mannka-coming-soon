@@ -5,7 +5,7 @@ import TempleCard from "./pages/TempleCard";
 import "./App.css";
 
 import kashiImg from './assets/KashiVishanath.jpg';
-import annapurnaImg from './assets/annapurna.jpg';
+import annapurnaImg from './assets/annapurnaTemple.jpg';
 import kaalBhairavImg from './assets/KaalBhairav.jpg';
 
 function App() {
