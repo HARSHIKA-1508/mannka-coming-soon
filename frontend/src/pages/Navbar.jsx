@@ -27,18 +27,18 @@ const Navbar = () => {
         <img src={logo} alt="Company Logo" className="logo" />
         <div className="company-info">
           <h2 className="company-name">Mannka</h2>
-          <p className="tagline">Giving Local Experience</p>
+          <p className="tagline">Providing The Local Experience To Our Atithi </p>
         </div>
       </div>
 
       <div className="navbar-right">
-        {/* Language Translate with Icon */}
+        
         <div className="translate-container">
           <FontAwesomeIcon icon={faLanguage} className="translate-icon" />
-          <div id="google_translate_element"></div>
+          /*<div id="google_translate_element"></div>*/
         </div>
 
-        {/* Font Awesome Phone Icon */}
+        
         <a href="tel:+918858855308" className="call-icon" title="Call Us">
           <FontAwesomeIcon icon={faPhone} />
         </a>
