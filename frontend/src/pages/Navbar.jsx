@@ -35,7 +35,7 @@ const Navbar = () => {
         
         <div className="translate-container">
           <FontAwesomeIcon icon={faLanguage} className="translate-icon" />
-          /*<div id="google_translate_element"></div>*/
+          
         </div>
 
         
