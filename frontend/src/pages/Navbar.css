@@ -54,13 +54,6 @@
   color: black;
 }
 
-
-.goog-logo-link,
-.goog-te-gadget span,
-.goog-te-banner-frame {
-  display: none !important;
-}
-
 #google_translate_element {
   margin: 0;
   padding: 0;
