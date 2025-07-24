@@ -7,6 +7,50 @@
   border-bottom: 1px solid #FFA500;
 }
 
+.translate-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.translate-icon {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+#google_translate_element select {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* Hide Google branding and "Select Language" text */
+.goog-te-gadget {
+  font-size: 0 !important;
+  color: transparent !important;
+}
+
+.goog-te-gadget img {
+  display: none !important; /* Remove Google logo */
+}
+
+.goog-te-gadget span {
+  display: none important; /* Removes "Select Language" text */
+}
+
+
+/* Style only the dropdown */
+.goog-te-combo {
+  font-size: 14px !important;
+  color: #333 !important;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
 .navbar-left {
   display: flex;
   align-items: center;
